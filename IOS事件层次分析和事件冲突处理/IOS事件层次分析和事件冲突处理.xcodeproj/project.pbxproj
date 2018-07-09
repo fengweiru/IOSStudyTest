@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4586304A20F2F3FE001425DD /* UIView+FWRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586304920F2F3FE001425DD /* UIView+FWRFrame.m */; };
+		4586305320F2FD8A001425DD /* FindingViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305220F2FD8A001425DD /* FindingViewViewController.m */; };
+		4586305620F2FEE1001425DD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305520F2FEE1001425DD /* TestView.m */; };
+		4586305E20F306AE001425DD /* ButtonApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305D20F306AE001425DD /* ButtonApplyViewController.m */; };
+		4586306120F30BCA001425DD /* ExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586306020F30BCA001425DD /* ExpandButton.m */; };
+		4586306420F33834001425DD /* SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586306320F33834001425DD /* SuperView.m */; };
+		4586307420F35094001425DD /* GestureEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586307020F35094001425DD /* GestureEventViewController.m */; };
+		4586307D20F3525B001425DD /* PanGestureOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586307C20F3525B001425DD /* PanGestureOne.m */; };
+		4586308020F3526A001425DD /* PanGestureTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586307F20F3526A001425DD /* PanGestureTwo.m */; };
+		4586308320F352BB001425DD /* ViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586308220F352BB001425DD /* ViewOne.m */; };
+		4586308620F352C8001425DD /* ViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586308520F352C8001425DD /* ViewTwo.m */; };
 		45A3138C20EDF1930031B8ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A3138B20EDF1930031B8ED /* AppDelegate.m */; };
 		45A3138F20EDF1930031B8ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A3138E20EDF1930031B8ED /* ViewController.m */; };
 		45A3139220EDF1930031B8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A3139020EDF1930031B8ED /* Main.storyboard */; };
@@ -16,6 +27,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4586304820F2F3FE001425DD /* UIView+FWRFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FWRFrame.h"; sourceTree = "<group>"; };
+		4586304920F2F3FE001425DD /* UIView+FWRFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FWRFrame.m"; sourceTree = "<group>"; };
+		4586304B20F2F696001425DD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4586305120F2FD8A001425DD /* FindingViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindingViewViewController.h; sourceTree = "<group>"; };
+		4586305220F2FD8A001425DD /* FindingViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindingViewViewController.m; sourceTree = "<group>"; };
+		4586305420F2FEE1001425DD /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		4586305520F2FEE1001425DD /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		4586305C20F306AE001425DD /* ButtonApplyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonApplyViewController.h; sourceTree = "<group>"; };
+		4586305D20F306AE001425DD /* ButtonApplyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonApplyViewController.m; sourceTree = "<group>"; };
+		4586305F20F30BCA001425DD /* ExpandButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandButton.h; sourceTree = "<group>"; };
+		4586306020F30BCA001425DD /* ExpandButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandButton.m; sourceTree = "<group>"; };
+		4586306220F33834001425DD /* SuperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperView.h; sourceTree = "<group>"; };
+		4586306320F33834001425DD /* SuperView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperView.m; sourceTree = "<group>"; };
+		4586306F20F35094001425DD /* GestureEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureEventViewController.h; sourceTree = "<group>"; };
+		4586307020F35094001425DD /* GestureEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureEventViewController.m; sourceTree = "<group>"; };
+		4586307B20F3525B001425DD /* PanGestureOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureOne.h; sourceTree = "<group>"; };
+		4586307C20F3525B001425DD /* PanGestureOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureOne.m; sourceTree = "<group>"; };
+		4586307E20F3526A001425DD /* PanGestureTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureTwo.h; sourceTree = "<group>"; };
+		4586307F20F3526A001425DD /* PanGestureTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureTwo.m; sourceTree = "<group>"; };
+		4586308120F352BB001425DD /* ViewOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewOne.h; sourceTree = "<group>"; };
+		4586308220F352BB001425DD /* ViewOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewOne.m; sourceTree = "<group>"; };
+		4586308420F352C8001425DD /* ViewTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewTwo.h; sourceTree = "<group>"; };
+		4586308520F352C8001425DD /* ViewTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTwo.m; sourceTree = "<group>"; };
 		45A3138720EDF1930031B8ED /* IOS事件层次分析和事件冲突处理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS事件层次分析和事件冲突处理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A3138A20EDF1930031B8ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45A3138B20EDF1930031B8ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +73,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4586304720F2F3E4001425DD /* ToolCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4586304820F2F3FE001425DD /* UIView+FWRFrame.h */,
+				4586304920F2F3FE001425DD /* UIView+FWRFrame.m */,
+			);
+			path = ToolCategory;
+			sourceTree = "<group>";
+		};
+		4586304C20F2FD67001425DD /* 寻找View */ = {
+			isa = PBXGroup;
+			children = (
+				4586304D20F2FD67001425DD /* Controller */,
+				4586304E20F2FD67001425DD /* Model */,
+				4586304F20F2FD67001425DD /* Other */,
+				4586305020F2FD67001425DD /* View */,
+			);
+			path = "寻找View";
+			sourceTree = "<group>";
+		};
+		4586304D20F2FD67001425DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4586305120F2FD8A001425DD /* FindingViewViewController.h */,
+				4586305220F2FD8A001425DD /* FindingViewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4586304E20F2FD67001425DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4586304F20F2FD67001425DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4586305020F2FD67001425DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4586305420F2FEE1001425DD /* TestView.h */,
+				4586305520F2FEE1001425DD /* TestView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4586305720F30652001425DD /* 两种点击button应用 */ = {
+			isa = PBXGroup;
+			children = (
+				4586305820F30652001425DD /* Controller */,
+				4586305920F30652001425DD /* Model */,
+				4586305A20F30652001425DD /* Other */,
+				4586305B20F30652001425DD /* View */,
+			);
+			path = "两种点击button应用";
+			sourceTree = "<group>";
+		};
+		4586305820F30652001425DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4586305C20F306AE001425DD /* ButtonApplyViewController.h */,
+				4586305D20F306AE001425DD /* ButtonApplyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4586305920F30652001425DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4586305A20F30652001425DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4586305B20F30652001425DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4586305F20F30BCA001425DD /* ExpandButton.h */,
+				4586306020F30BCA001425DD /* ExpandButton.m */,
+				4586306220F33834001425DD /* SuperView.h */,
+				4586306320F33834001425DD /* SuperView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4586306D20F35094001425DD /* 多手势冲突处理 */ = {
+			isa = PBXGroup;
+			children = (
+				4586306E20F35094001425DD /* Controller */,
+				4586307120F35094001425DD /* Model */,
+				4586307220F35094001425DD /* Other */,
+				4586307320F35094001425DD /* View */,
+			);
+			path = "多手势冲突处理";
+			sourceTree = "<group>";
+		};
+		4586306E20F35094001425DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4586306F20F35094001425DD /* GestureEventViewController.h */,
+				4586307020F35094001425DD /* GestureEventViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4586307120F35094001425DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4586307220F35094001425DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4586307B20F3525B001425DD /* PanGestureOne.h */,
+				4586307C20F3525B001425DD /* PanGestureOne.m */,
+				4586307E20F3526A001425DD /* PanGestureTwo.h */,
+				4586307F20F3526A001425DD /* PanGestureTwo.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4586307320F35094001425DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4586308120F352BB001425DD /* ViewOne.h */,
+				4586308220F352BB001425DD /* ViewOne.m */,
+				4586308420F352C8001425DD /* ViewTwo.h */,
+				4586308520F352C8001425DD /* ViewTwo.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		45A3137E20EDF1930031B8ED = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +238,9 @@
 		45A3138920EDF1930031B8ED /* IOS事件层次分析和事件冲突处理 */ = {
 			isa = PBXGroup;
 			children = (
+				4586306D20F35094001425DD /* 多手势冲突处理 */,
+				4586305720F30652001425DD /* 两种点击button应用 */,
+				4586304C20F2FD67001425DD /* 寻找View */,
 				45A3138A20EDF1930031B8ED /* AppDelegate.h */,
 				45A3138B20EDF1930031B8ED /* AppDelegate.m */,
 				45A3138D20EDF1930031B8ED /* ViewController.h */,
@@ -67,6 +250,8 @@
 				45A3139520EDF1930031B8ED /* LaunchScreen.storyboard */,
 				45A3139820EDF1930031B8ED /* Info.plist */,
 				45A3139920EDF1930031B8ED /* main.m */,
+				4586304B20F2F696001425DD /* PrefixHeader.pch */,
+				4586304720F2F3E4001425DD /* ToolCategory */,
 			);
 			path = "IOS事件层次分析和事件冲突处理";
 			sourceTree = "<group>";
@@ -143,8 +328,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A3138F20EDF1930031B8ED /* ViewController.m in Sources */,
+				4586308320F352BB001425DD /* ViewOne.m in Sources */,
+				4586307D20F3525B001425DD /* PanGestureOne.m in Sources */,
+				4586308020F3526A001425DD /* PanGestureTwo.m in Sources */,
+				4586305E20F306AE001425DD /* ButtonApplyViewController.m in Sources */,
+				4586305320F2FD8A001425DD /* FindingViewViewController.m in Sources */,
 				45A3139A20EDF1930031B8ED /* main.m in Sources */,
+				4586304A20F2F3FE001425DD /* UIView+FWRFrame.m in Sources */,
+				4586306120F30BCA001425DD /* ExpandButton.m in Sources */,
+				4586308620F352C8001425DD /* ViewTwo.m in Sources */,
+				4586305620F2FEE1001425DD /* TestView.m in Sources */,
+				4586306420F33834001425DD /* SuperView.m in Sources */,
 				45A3138C20EDF1930031B8ED /* AppDelegate.m in Sources */,
+				4586307420F35094001425DD /* GestureEventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9N3BXTLCJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOS事件层次分析和事件冲突处理/PrefixHeader.pch";
 				INFOPLIST_FILE = "IOS事件层次分析和事件冲突处理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fengweiru.test.IOS-------------";
@@ -294,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9N3BXTLCJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOS事件层次分析和事件冲突处理/PrefixHeader.pch";
 				INFOPLIST_FILE = "IOS事件层次分析和事件冲突处理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fengweiru.test.IOS-------------";
