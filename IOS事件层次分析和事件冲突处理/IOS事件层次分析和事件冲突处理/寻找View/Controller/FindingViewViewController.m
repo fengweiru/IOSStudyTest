@@ -59,7 +59,7 @@
     [grayView addSubview:redView];
     [grayView addSubview:blueView];
     [self.view addSubview:yellowView];
-    
+    UITapGestureRecognizer
     NSLog(@"%@",blueView.nextResponder.description);
     NSLog(@"%@",redView.nextResponder.description);
     NSLog(@"%@",yellowView.nextResponder.description);
