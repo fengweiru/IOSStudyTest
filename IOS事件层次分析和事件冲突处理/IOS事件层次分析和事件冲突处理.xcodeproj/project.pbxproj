@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4586304A20F2F3FE001425DD /* UIView+FWRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586304920F2F3FE001425DD /* UIView+FWRFrame.m */; };
+		453DBCDC210998CB00FF016E /* UIView+FFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DBCDA210998CA00FF016E /* UIView+FFrame.m */; };
 		4586305320F2FD8A001425DD /* FindingViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305220F2FD8A001425DD /* FindingViewViewController.m */; };
 		4586305620F2FEE1001425DD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305520F2FEE1001425DD /* TestView.m */; };
 		4586305E20F306AE001425DD /* ButtonApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586305D20F306AE001425DD /* ButtonApplyViewController.m */; };
@@ -27,8 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4586304820F2F3FE001425DD /* UIView+FWRFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FWRFrame.h"; sourceTree = "<group>"; };
-		4586304920F2F3FE001425DD /* UIView+FWRFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FWRFrame.m"; sourceTree = "<group>"; };
+		453DBCDA210998CA00FF016E /* UIView+FFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFrame.m"; sourceTree = "<group>"; };
+		453DBCDB210998CA00FF016E /* UIView+FFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFrame.h"; sourceTree = "<group>"; };
 		4586304B20F2F696001425DD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4586305120F2FD8A001425DD /* FindingViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindingViewViewController.h; sourceTree = "<group>"; };
 		4586305220F2FD8A001425DD /* FindingViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindingViewViewController.m; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		4586304720F2F3E4001425DD /* ToolCategory */ = {
 			isa = PBXGroup;
 			children = (
-				4586304820F2F3FE001425DD /* UIView+FWRFrame.h */,
-				4586304920F2F3FE001425DD /* UIView+FWRFrame.m */,
+				453DBCDB210998CA00FF016E /* UIView+FFrame.h */,
+				453DBCDA210998CA00FF016E /* UIView+FFrame.m */,
 			);
 			path = ToolCategory;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				4586305E20F306AE001425DD /* ButtonApplyViewController.m in Sources */,
 				4586305320F2FD8A001425DD /* FindingViewViewController.m in Sources */,
 				45A3139A20EDF1930031B8ED /* main.m in Sources */,
-				4586304A20F2F3FE001425DD /* UIView+FWRFrame.m in Sources */,
+				453DBCDC210998CB00FF016E /* UIView+FFrame.m in Sources */,
 				4586306120F30BCA001425DD /* ExpandButton.m in Sources */,
 				4586308620F352C8001425DD /* ViewTwo.m in Sources */,
 				4586305620F2FEE1001425DD /* TestView.m in Sources */,
